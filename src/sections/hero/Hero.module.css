@@ -2,8 +2,31 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 1px solid #3b3440;
-  padding: 20px;
   background-color: #16171d;
   border-radius: 10px;
+  height: 100vh;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #3b3440;
+  padding: 30px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #3b3440;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageFrame {
+  border: 1px solid #3b3440;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+}
