@@ -2,8 +2,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 1px solid #3b3440;
-  border-top: #16171d;
-  background-color: #16171d;
+  border-top: #000000;
+  border-bottom: #000000;
+  background-color: #000000;
   height: 80vh;
 }
 

@@ -10,9 +10,9 @@
   align-items: center;
 
   padding: 10px 30px;
-  background: #16171d;
+  background: #000000;
   border: 1px solid #3b3440;
-  border-top: #16171d;
+  border-top: #000000;
   z-index: 1000;
 }
 
