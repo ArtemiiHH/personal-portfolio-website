@@ -1,0 +1,27 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #3b3440;
+  border-top: #16171d;
+  border-radius: 10px;
+  padding: 20px;
+  height: 50vh;
+  background-color: #16171d;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.projectCard {
+  border: 1px solid #3b3440;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #16171d;
+}
