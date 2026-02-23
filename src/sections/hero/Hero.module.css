@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 1px solid #3b3440;
+  border-top: #16171d;
   background-color: #16171d;
   height: 80vh;
 }
@@ -9,7 +10,7 @@
 .left {
   display: flex;
   flex-direction: column;
-  border: 1px solid #3b3440;
+  border-right: 1px solid #3b3440;
   padding: 30px;
   justify-content: center;
   align-items: flex-start;
@@ -18,7 +19,6 @@
 .right {
   display: flex;
   flex-direction: column;
-  border: 1px solid #3b3440;
   justify-content: center;
   align-items: center;
 }
