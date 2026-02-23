@@ -1,12 +1,45 @@
 .hero {
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #3b3440;
   border-top: #000000;
   border-bottom: #000000;
   background-color: #000000;
-  height: 80vh;
+  padding: 20px;
+  gap: 30px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 30px;
+}
+
+button {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.workButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+}
+
+img {
+  height: 20px;
 }
 
 .outerContainer {
