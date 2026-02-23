@@ -1,6 +1,7 @@
 import styles from "./Hero.module.css";
 import arrowSvg from "../../assets/arrow.svg";
 import meshBackground from "../../assets/mesh-background.png";
+import downloadSvg from "../../assets/download.svg";
 
 export default function Hero() {
   return (
@@ -22,10 +23,12 @@ export default function Hero() {
         <div className={styles.buttonGroup}>
           <a href="#projects">
             <button className={styles.workButton}>
-              View work <img src={arrowSvg} className={styles.arrow} />
+              View work <img src={arrowSvg} className={styles.icon} />
             </button>
           </a>
-          <button className={styles.cvButton}>Download CV</button>
+          <button className={styles.cvButton}>
+            <img src={downloadSvg} className={styles.icon} /> Download CV
+          </button>
         </div>
       </section>
     </div>

@@ -46,16 +46,19 @@ button {
   background-color: white;
 }
 
-.workButton:hover .arrow {
+.workButton:hover .icon {
   transform: translateX(10px);
 }
 
 .cvButton {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   background-color: black;
   color: white;
 }
 
-.arrow {
+.icon {
   height: 25px;
   transition: transform 0.2s ease;
 }
