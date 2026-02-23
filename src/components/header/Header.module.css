@@ -1,5 +1,31 @@
 .header {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border: 1px solid #3b3440;
+  padding: 20px;
+}
+
+.header * {
+  margin: 0;
+}
+
+.name {
+  text-decoration: none;
+  color: white;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.navbar li:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
