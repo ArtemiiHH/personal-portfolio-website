@@ -2,7 +2,7 @@ import styles from "./Skills.module.css";
 
 export default function Skills() {
   return (
-    <section className={styles.skills}>
+    <section id="skills" className={styles.skills}>
       {/* Title */}
       <h2>My stack</h2>
 

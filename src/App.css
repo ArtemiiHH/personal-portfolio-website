@@ -13,6 +13,10 @@ body {
   background-color: #3b3440;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -24,4 +28,9 @@ p {
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

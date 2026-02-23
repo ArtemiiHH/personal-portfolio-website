@@ -5,15 +5,25 @@ export default function Header() {
     <header className={styles.header}>
       {/* Name/Logo */}
       <h1>
-        <a href="" className={styles.name}>Artemii</a>
+        <a href="#hero" className={styles.name}>
+          Artemii
+        </a>
       </h1>
       {/* Navigation Tab */}
       <nav>
         <ul className={styles.navbar}>
-          <li>About</li>
-          <li>Work</li>
-          <li>Skills</li>
-          <li>Contact</li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
