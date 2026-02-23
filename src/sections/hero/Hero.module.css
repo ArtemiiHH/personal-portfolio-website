@@ -27,7 +27,8 @@
 
 .buttonGroup {
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 button {
@@ -38,27 +39,25 @@ button {
   border-radius: 10px;
 }
 
-button:hover {
-  cursor: pointer;
-  opacity: 0.7;
-}
-
 .workButton {
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 10px;
   background-color: white;
 }
 
+.workButton:hover .arrow {
+  transform: translateX(10px);
+}
+
 .cvButton {
   background-color: black;
-  border: 1px solid white;
   color: white;
 }
 
 .arrow {
   height: 25px;
+  transition: transform 0.2s ease;
 }
 
 .outerContainer {

@@ -20,9 +20,11 @@ export default function Hero() {
         <h2 className={styles.undertext}>Artemii Barashkov</h2>
         {/* Button Group */}
         <div className={styles.buttonGroup}>
-          <button className={styles.workButton}>
-            View work <img src={arrowSvg} className={styles.arrow} />
-          </button>
+          <a href="#projects">
+            <button className={styles.workButton}>
+              View work <img src={arrowSvg} className={styles.arrow} />
+            </button>
+          </a>
           <button className={styles.cvButton}>Download CV</button>
         </div>
       </section>
