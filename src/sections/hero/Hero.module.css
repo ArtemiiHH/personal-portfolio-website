@@ -1,38 +1,12 @@
 .hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
   border: 1px solid #3b3440;
   border-top: #000000;
   border-bottom: #000000;
   background-color: #000000;
   height: 80vh;
-}
-
-.left {
-  display: flex;
-  flex-direction: column;
-  border-right: 1px solid #3b3440;
-  padding: 30px;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.imageFrame {
-  border: 1px solid #3b3440;
-  border-radius: 50%;
-  height: 400px;
-  width: 400px;
-}
-
-.buttonGroup {
-  display: flex;
 }
 
 .outerContainer {
