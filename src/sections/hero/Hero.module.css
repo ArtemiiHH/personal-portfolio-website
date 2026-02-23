@@ -7,7 +7,11 @@
   border: 1px solid #3b3440;
   border-top: #000000;
   border-bottom: #000000;
-  background-color: #000000;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
   padding: 20px;
   gap: 20px;
 }
@@ -53,7 +57,7 @@ button:hover {
   color: white;
 }
 
-img {
+.arrow {
   height: 25px;
 }
 

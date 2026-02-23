@@ -1,17 +1,27 @@
 import styles from "./Hero.module.css";
 import arrowSvg from "../../assets/arrow.svg";
+import meshBackground from "../../assets/mesh-background.png";
 
 export default function Hero() {
   return (
     <div className={styles.outerContainer}>
-      <section id="hero" className={styles.hero}>
+      <section
+        id="hero"
+        className={styles.hero}
+        style={{
+          backgroundImage: `
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url(${meshBackground})
+  `,
+        }}
+      >
         {/* Title */}
         <h1 className={styles.title}>Full Stack Developer</h1>
         <h2 className={styles.undertext}>Artemii Barashkov</h2>
         {/* Button Group */}
         <div className={styles.buttonGroup}>
           <button className={styles.workButton}>
-            View work <img src={arrowSvg} />
+            View work <img src={arrowSvg} className={styles.arrow} />
           </button>
           <button className={styles.cvButton}>Download CV</button>
         </div>
