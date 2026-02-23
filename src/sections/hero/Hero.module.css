@@ -30,3 +30,7 @@
   height: 400px;
   width: 400px;
 }
+
+.buttonGroup {
+  display: flex;
+}
