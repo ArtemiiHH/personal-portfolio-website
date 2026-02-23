@@ -33,3 +33,9 @@
 .buttonGroup {
   display: flex;
 }
+
+.outerContainer {
+  border-top: 1px solid #3b3440;
+  border-bottom: 1px solid #3b3440;
+  padding: 0 60px;
+}

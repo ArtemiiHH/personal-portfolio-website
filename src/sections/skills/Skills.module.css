@@ -22,3 +22,9 @@
   background-color: #16171d;
   padding: 20px;
 }
+
+.outerContainer {
+  border-top: 1px solid #3b3440;
+  border-bottom: 1px solid #3b3440;
+  padding: 0 60px;
+}

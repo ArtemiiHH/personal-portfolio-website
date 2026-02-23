@@ -2,7 +2,8 @@ import styles from "./Skills.module.css";
 
 export default function Skills() {
   return (
-    <section id="skills" className={styles.skills}>
+    <div className={styles.outerContainer}>
+      <section id="skills" className={styles.skills}>
       {/* Title */}
       <h2>My stack</h2>
 
@@ -18,5 +19,6 @@ export default function Skills() {
         <li>MongoDB</li>
       </ul>
     </section>
+    </div>
   );
 }

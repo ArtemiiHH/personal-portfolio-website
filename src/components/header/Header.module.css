@@ -12,6 +12,7 @@
   padding: 10px 30px;
   background: #16171d;
   border: 1px solid #3b3440;
+  border-top: #16171d;
   z-index: 1000;
 }
 

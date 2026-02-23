@@ -5,12 +5,12 @@
   background-color: #16171d;
   color: white;
   font-family: "Inter", sans-serif;
-  margin: 0 60px;
+  /* margin: 0 60px; */
 }
 
 body {
   margin: 0;
-  padding-top: 60px;
+  padding-top: 72px;
   background-color: #16171d;
 }
 
