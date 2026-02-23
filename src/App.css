@@ -10,4 +10,13 @@
 
 body {
   margin: 0;
+  background-color: #3b3440;
+}
+
+h1,
+h2,
+h2,
+h4,
+p {
+  margin: 0;
 }

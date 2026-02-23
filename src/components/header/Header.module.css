@@ -4,10 +4,7 @@
   align-items: center;
   border: 1px solid #3b3440;
   padding: 20px;
-}
-
-.header * {
-  margin: 0;
+  background-color: #16171d;
 }
 
 .name {

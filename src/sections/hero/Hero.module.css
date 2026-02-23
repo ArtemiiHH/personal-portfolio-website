@@ -1,0 +1,9 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid #3b3440;
+  padding: 20px;
+  background-color: #16171d;
+  border-radius: 10px;
+}
+
