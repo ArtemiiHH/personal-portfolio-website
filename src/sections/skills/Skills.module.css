@@ -9,7 +9,17 @@
   align-items: center;
 }
 
-.skills li {
+.stackItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.stackItems li {
   border: 1px solid #3b3440;
+  border-radius: 10px;
   background-color: #16171d;
+  padding: 20px;
 }
