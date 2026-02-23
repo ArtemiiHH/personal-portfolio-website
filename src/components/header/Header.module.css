@@ -1,13 +1,18 @@
 .header {
+  position: fixed;
+  top: 0;
+  left: 60px;
+  right: 60px;
+  box-sizing: border-box;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid #3b3440;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top: #16171d;
+
   padding: 10px 30px;
-  background-color: #16171d;
+  background: #16171d;
+  border: 1px solid #3b3440;
+  z-index: 1000;
 }
 
 .name {

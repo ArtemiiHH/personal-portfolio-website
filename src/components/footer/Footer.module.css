@@ -4,8 +4,8 @@
   align-items: center;
   border: 1px solid #3b3440;
   border-bottom: #16171d;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
   padding: 20px;
   background-color: #16171d;
 }
