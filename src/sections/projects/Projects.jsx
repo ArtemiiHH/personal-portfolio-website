@@ -14,7 +14,11 @@ export default function Projects() {
           <li className={styles.projectCard}>
             <img src={projectImage} className={styles.projectImage} />
             <h3>Project</h3>
-            <p>Description...</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              finibus, felis a elementum lacinia, tellus massa vehicula leo, id
+              maximus urna ipsum non metus.
+            </p>
           </li>
           <li className={styles.projectCard}>
             <img src={projectImage} className={styles.projectImage} />

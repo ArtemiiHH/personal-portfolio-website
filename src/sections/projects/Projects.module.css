@@ -4,7 +4,7 @@
   border: 1px solid #3b3440;
   border-top: #000000;
   border-bottom: #000000;
-  padding: 20px;
+  padding: 50px;
   height: auto;
   background-color: #000000;
   justify-content: center;
@@ -14,14 +14,12 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 
 .projectCard {
-  height: auto;
-  width: auto;
   border: 1px solid #3b3440;
   border-radius: 10px;
   padding: 20px ;
