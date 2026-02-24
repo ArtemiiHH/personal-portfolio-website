@@ -1,4 +1,5 @@
 import styles from "./Projects.module.css";
+import projectImage from "../../assets/project-image.png";
 
 export default function Projects() {
   return (
@@ -11,22 +12,22 @@ export default function Projects() {
         <ul className={styles.grid}>
           {/* Each Project Card */}
           <li className={styles.projectCard}>
+            <img src={projectImage} className={styles.projectImage} />
             <h3>Project</h3>
             <p>Description...</p>
           </li>
           <li className={styles.projectCard}>
+            <img src={projectImage} className={styles.projectImage} />
             <h3>Project</h3>
             <p>Description...</p>
           </li>
           <li className={styles.projectCard}>
+            <img src={projectImage} className={styles.projectImage} />
             <h3>Project</h3>
             <p>Description...</p>
           </li>
           <li className={styles.projectCard}>
-            <h3>Project</h3>
-            <p>Description...</p>
-          </li>
-          <li className={styles.projectCard}>
+            <img src={projectImage} className={styles.projectImage} />
             <h3>Project</h3>
             <p>Description...</p>
           </li>

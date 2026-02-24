@@ -17,8 +17,8 @@ export default function Hero() {
         }}
       >
         {/* Title */}
-        <h1 className={styles.title}>Full Stack Developer</h1>
-        <h2 className={styles.undertext}>Artemii Barashkov</h2>
+        <h1 className={styles.title}>Artemii Barashkov</h1>
+        <h2 className={styles.undertext}>Full Stack Developer</h2>
         {/* Button Group */}
         <div className={styles.buttonGroup}>
           <a href="#projects">
