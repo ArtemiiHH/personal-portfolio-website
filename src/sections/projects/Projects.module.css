@@ -14,7 +14,7 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 20px;
 }
@@ -26,6 +26,10 @@
   background-color: #000000;
   height: auto;
   width: 200px;
+}
+
+.projectCard:hover {
+  background-color: #242424;
 }
 
 .projectImage {
