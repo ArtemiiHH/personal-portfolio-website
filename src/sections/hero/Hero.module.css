@@ -47,7 +47,7 @@ button {
 }
 
 .workButton:hover .icon {
-  transform: translateX(10px);
+  transform: translateX(5px);
 }
 
 .cvButton {
