@@ -26,9 +26,11 @@ export default function Hero() {
               View work <img src={arrowSvg} className={styles.icon} />
             </button>
           </a>
-          <button className={styles.cvButton}>
-            <img src={downloadSvg} className={styles.icon} /> Download CV
-          </button>
+          <a href="../../assets/pdf-test.pdf" download>
+            <button className={styles.cvButton}>
+              <img src={downloadSvg} className={styles.icon} /> Download CV
+            </button>
+          </a>
         </div>
       </section>
     </div>
