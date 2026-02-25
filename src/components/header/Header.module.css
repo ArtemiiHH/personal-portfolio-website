@@ -30,6 +30,10 @@
   gap: 30px;
 }
 
+.navbar li {
+  font-size: 20px;
+}
+
 .navbar li:hover {
   cursor: pointer;
   opacity: 0.5;

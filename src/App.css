@@ -9,16 +9,12 @@
 
 body {
   margin: 0;
-  padding-top: 72px;
+  padding-top: 76px;
   background-color: #000000;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-section {
-  scroll-margin-top: 90px;
 }
 
 h1,
