@@ -11,16 +11,20 @@ export default function About() {
         <section id="about" className={styles.about}>
           {/* Left Column */}
           <div className={styles.left}>
-            {/* Title */}
-            <h1>Hello, I'm Artemii</h1>
-            {/* Description */}
-            <p>
-              I am a Full Stack Developer with a background in Graphic Design,
-              combining technical skills with a strong eye for design and user
-              experience. I enjoy building applications that are both functional
-              and visually refined, focusing on clean, intuitive digital
-              experiences.
-            </p>
+            <div className={styles.descriptionBox}>
+              {/* Title */}
+              <h1>
+                <span>Hello, I'm</span> Artemii
+              </h1>
+              {/* Description */}
+              <p>
+                I am a Full Stack Developer with a background in Graphic Design,
+                combining technical skills with a strong eye for design and user
+                experience. I enjoy building applications that are both
+                functional and visually refined, focusing on clean, intuitive
+                digital experiences.
+              </p>
+            </div>
             {/* Button Group */}
             <div className={styles.buttonGroup}>
               <button>View work</button>
