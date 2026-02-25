@@ -5,6 +5,7 @@ import javascriptLogo from "../../assets/javascript-logo.svg";
 import htmlLogo from "../../assets/html-logo.svg";
 import cssLogo from "../../assets/css-logo.svg";
 import expressLogo from "../../assets/express-logo.svg";
+import sqlLogo from "../../assets/sql-logo.svg";
 
 export default function Skills() {
   return (
@@ -38,6 +39,10 @@ export default function Skills() {
           <li className={styles.item}>
             <img src={expressLogo} className={styles.logoIcon} />
             <p>Express</p>
+          </li>
+          <li className={styles.item}>
+            <img src={sqlLogo} className={styles.logoIcon} />
+            <p>SQL</p>
           </li>
         </ul>
       </section>
