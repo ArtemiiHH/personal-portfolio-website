@@ -18,15 +18,27 @@
   gap: 20px;
 }
 
-.stackItems li {
-  border: 1px solid #3b3440;
-  border-radius: 10px;
-  background-color: #000000;
-  padding: 20px;
-}
-
 .outerContainer {
   border-top: 1px solid #3b3440;
   border-bottom: 1px solid #3b3440;
   padding: 0 60px;
+}
+
+.logoIcon {
+  height: 45px;
+  width: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  gap: 5px;
+  border: 1px solid #3b3440;
+  border-radius: 10px;
+  background-color: #000000;
+  padding: 20px;
 }
