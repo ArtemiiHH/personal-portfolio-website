@@ -1,7 +1,7 @@
 import styles from "./Hero.module.css";
 import arrowSvg from "../../assets/arrow.svg";
-import meshBackground from "../../assets/mesh-background.png";
 import downloadSvg from "../../assets/download.svg";
+import animatedBackground from "../../assets/background.gif";
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
         style={{
           backgroundImage: `
     linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-    url(${meshBackground})
+    url(${animatedBackground})
   `,
         }}
       >
