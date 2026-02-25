@@ -16,7 +16,9 @@
 }
 
 .aboutTitle h1 {
-  padding: 40px 20px;
+  font-weight: 300;
+  font-size: 3rem;
+  padding: 30px 30px;
   border: 1px solid #3b3440;
   border-top: #000000;
   border-bottom: #000000;

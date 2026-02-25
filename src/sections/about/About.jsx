@@ -2,13 +2,13 @@ import styles from "./About.module.css";
 
 export default function About() {
   return (
-    <>
+    <section id="about">
       <div className={styles.aboutTitle}>
         <h1>About me</h1>
       </div>
 
       <div className={styles.outerContainer}>
-        <section id="about" className={styles.about}>
+        <section className={styles.about}>
           {/* Left Column */}
           <div className={styles.left}>
             <div className={styles.descriptionBox}>
@@ -37,6 +37,6 @@ export default function About() {
           </div>
         </section>
       </div>
-    </>
+    </section>
   );
 }
