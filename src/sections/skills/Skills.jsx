@@ -16,31 +16,31 @@ export default function Skills() {
 
         {/* Stack List */}
         <ul className={styles.stackItems}>
-          <li className={styles.item}>
+          <li className={styles.item} title="React.js">
             <img src={reactLogo} className={styles.logoIcon} />
             <p>React</p>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item} title="Node.js">
             <img src={nodeLogo} className={styles.logoIcon} />
             <p>Node.js</p>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item} title="JavaScript">
             <img src={javascriptLogo} className={styles.logoIcon} />
             <p>JavaScript</p>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item} title="HTML">
             <img src={htmlLogo} className={styles.logoIcon} />
             <p>HTML</p>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item} title="CSS">
             <img src={cssLogo} className={styles.logoIcon} />
             <p>CSS</p>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item} title="Express">
             <img src={expressLogo} className={styles.logoIcon} />
             <p>Express</p>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item} title="SQL">
             <img src={sqlLogo} className={styles.logoIcon} />
             <p>SQL</p>
           </li>
