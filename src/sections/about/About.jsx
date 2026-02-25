@@ -2,31 +2,37 @@ import styles from "./About.module.css";
 
 export default function About() {
   return (
-    <div className={styles.outerContainer}>
-      <section id="about" className={styles.about}>
-        {/* Left Column */}
-        <div className={styles.left}>
-          {/* Title */}
-          <h1>My name is...</h1>
-          {/* Description */}
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu
-            sagittis mi. Nulla rhoncus efficitur dolor, vitae consequat ante
-            feugiat at. Sed maximus bibendum vehicula. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Donec nec nunc eu neque
-            aliquam ullamcorper.{" "}
-          </p>
-          {/* Button Group */}
-          <div className={styles.buttonGroup}>
-            <button>View work</button>
-            <button>Download CV</button>
+    <>
+      <div className={styles.aboutTitle}>
+        <h1>About me</h1>
+      </div>
+
+      <div className={styles.outerContainer}>
+        <section id="about" className={styles.about}>
+          {/* Left Column */}
+          <div className={styles.left}>
+            {/* Title */}
+            <h1>Hello, I'm Artemii</h1>
+            {/* Description */}
+            <p>
+              I am a Full Stack Developer with a background in Graphic Design,
+              combining technical skills with a strong eye for design and user
+              experience. I enjoy building applications that are both functional
+              and visually refined, focusing on clean, intuitive digital
+              experiences.
+            </p>
+            {/* Button Group */}
+            <div className={styles.buttonGroup}>
+              <button>View work</button>
+              <button>Download CV</button>
+            </div>
           </div>
-        </div>
-        {/* Right Column */}
-        <div className={styles.right}>
-          <div className={styles.imageFrame}></div>
-        </div>
-      </section>
-    </div>
+          {/* Right Column */}
+          <div className={styles.right}>
+            <div className={styles.imageFrame}></div>
+          </div>
+        </section>
+      </div>
+    </>
   );
 }

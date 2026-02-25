@@ -8,6 +8,20 @@
   height: 80vh;
 }
 
+.aboutTitle {
+  padding: 0 60px;
+  border: 1px solid #3b3440;
+  border-left: #000000;
+  border-right: #000000;
+}
+
+.aboutTitle h1 {
+  padding: 40px;
+  border: 1px solid #3b3440;
+  border-top: #000000;
+  border-bottom: #000000;
+}
+
 .left {
   display: flex;
   flex-direction: column;
