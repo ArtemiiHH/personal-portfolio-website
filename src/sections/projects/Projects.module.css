@@ -37,21 +37,16 @@
 
 .projectCard {
   border: 1px solid #3b3440;
-  border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   background-color: #000000;
   height: auto;
-  width: 200px;
-}
-
-.projectCard:hover {
-  background-color: #242424;
+  width: 250px;
 }
 
 .projectImage {
   height: 200px;
-  width: auto;
-  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .outerContainer {
@@ -60,8 +55,47 @@
   padding: 0 60px;
 }
 
+.textBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.stackLabel {
+  display: flex;
+  width: fit-content;
+  padding: 5px 10px;
+  background-color: #3b3440;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
 .text {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.iconGroup {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  height: 25px;
+  padding: 7px;
+  width: auto;
+  border: 1px solid #3b3440;
+  border-radius: 10px;
+}
+
+.icon:hover {
+  background-color: #161616;
 }
