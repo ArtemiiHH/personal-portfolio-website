@@ -1,4 +1,5 @@
 import styles from "./About.module.css";
+import profileImage from "../../assets/profile-image.jpg";
 
 export default function About() {
   return (
@@ -33,7 +34,9 @@ export default function About() {
           </div>
           {/* Right Column */}
           <div className={styles.right}>
-            <div className={styles.imageFrame}></div>
+            <div className={styles.imageFrame}>
+              <img src={profileImage} />
+            </div>
           </div>
         </section>
       </div>

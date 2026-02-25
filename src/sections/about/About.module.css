@@ -64,10 +64,19 @@
 }
 
 .imageFrame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #3b3440;
   border-radius: 50%;
   height: 300px;
   width: 300px;
+  overflow: hidden;
+}
+
+img {
+  height: 400px;
+  width: auto;
 }
 
 .buttonGroup {
