@@ -108,6 +108,16 @@
     font-size: 2.5rem;
     padding: 25px 25px;
   }
+
+  .projectCard {
+    padding: 20px;
+    height: 300px;
+    width: 200px;
+  }
+
+  .group {
+    margin-top: 12px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -115,5 +125,15 @@
     font-weight: 300;
     font-size: 2rem;
     padding: 20px 20px;
+  }
+
+  .projectCard {
+    padding: 20px;
+    height: 300px;
+    width: 200px;
+  }
+
+  .group {
+    margin-top: 10px;
   }
 }
