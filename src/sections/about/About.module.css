@@ -1,6 +1,5 @@
 .about {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
   border: 1px solid #3b3440;
   border-top: #000000;
   border-bottom: #000000;
@@ -87,4 +86,5 @@ img {
   border-top: 1px solid #3b3440;
   border-bottom: 1px solid #3b3440;
   padding: 0 60px;
+  margin-bottom: 100px;
 }
