@@ -65,3 +65,20 @@
   cursor: pointer;
   background-color: #161616;
 }
+
+/* Responsive */
+@media screen and (max-width: 1025px) {
+  .skillsTitle h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    padding: 25px 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skillsTitle h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    padding: 20px 20px;
+  }
+}
