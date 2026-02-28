@@ -1,4 +1,5 @@
 import styles from "./Header.module.css";
+import menuIcon from "../../assets/hamburger-menu.svg";
 
 export default function Header() {
   return (
@@ -25,6 +26,10 @@ export default function Header() {
             <a href="#contact">Contact</a>
           </li>
         </ul>
+        {/* Hamburger Menu */}
+        <a href="">
+          <img src={menuIcon} className={styles.menuButton} />
+        </a>
       </nav>
     </header>
   );

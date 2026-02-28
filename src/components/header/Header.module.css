@@ -38,3 +38,22 @@
   cursor: pointer;
   opacity: 0.5;
 }
+
+/* Responsive Header */
+/* Hamburger Menu */
+.menuButton {
+  display: none;
+  background-color: transparent;
+  height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+  .menuButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+}
