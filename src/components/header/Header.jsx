@@ -1,7 +1,17 @@
 import styles from "./Header.module.css";
 import menuIcon from "../../assets/hamburger-menu.svg";
+import { useState } from "react";
+
+// Import Hamburger Menu component
+import Hamburger from "../hamburger/Hamburger";
 
 export default function Header() {
+  const [hamMenu, setHamMenu] = useState(false);
+
+  function toggleMenu() {
+    setHamMenu((prev) => !prev);
+  }
+
   return (
     <header className={styles.header}>
       {/* Name/Logo */}
@@ -27,9 +37,17 @@ export default function Header() {
           </li>
         </ul>
         {/* Hamburger Menu */}
-        <a href="">
-          <img src={menuIcon} className={styles.menuButton} />
-        </a>
+        <button
+          type="button"
+          onClick={toggleMenu}
+          className={styles.menuButton}
+          aria-label="Toggle menu"
+          aria-expanded={hamMenu}
+        >
+          <img src={menuIcon} className={styles.menuIcon} />
+        </button>
+
+        {hamMenu && <Hamburger onClose={() => setHamMenu(false)}></Hamburger>}
       </nav>
     </header>
   );

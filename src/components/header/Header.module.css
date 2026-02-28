@@ -43,8 +43,16 @@
 /* Hamburger Menu */
 .menuButton {
   display: none;
-  background-color: transparent;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.menuButton img {
   height: 30px;
+  width: 30px;
+  display: block;
 }
 
 @media screen and (max-width: 768px) {
