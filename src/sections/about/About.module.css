@@ -80,6 +80,8 @@ img {
 
 .buttonGroup {
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .outerContainer {
@@ -87,4 +89,100 @@ img {
   border-bottom: 1px solid #3b3440;
   padding: 0 60px;
   margin-bottom: 100px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1025px) {
+  .right {
+    padding: 30px;
+  }
+
+  .imageFrame {
+    height: 220px;
+    width: 220px;
+    overflow: hidden;
+  }
+
+  img {
+    height: 290px;
+    width: auto;
+  }
+
+  /* Text */
+  .aboutTitle h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+    padding: 25px 25px;
+  }
+
+  .descriptionBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .descriptionBox span {
+    font-weight: 300;
+    font-size: 2.3rem;
+  }
+
+  .descriptionBox h1 {
+    font-weight: 500;
+    font-size: 2.3rem;
+  }
+
+  .descriptionBox p {
+    font-weight: 300;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .right {
+    padding: 20px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imageFrame {
+    height: 175px;
+    width: 175px;
+    overflow: hidden;
+  }
+
+  img {
+    height: 250px;
+    width: auto;
+  }
+
+  /* Text */
+  .aboutTitle h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    padding: 20px 20px;
+  }
+
+  .descriptionBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .descriptionBox span {
+    font-weight: 300;
+    font-size: 1.7rem;
+  }
+
+  .descriptionBox h1 {
+    font-weight: 500;
+    font-size: 1.7rem;
+  }
+
+  .descriptionBox p {
+    font-weight: 300;
+    font-size: 16px;
+  }
 }
