@@ -1,26 +1,26 @@
 import styles from "./Hamburger.module.css";
 
-export default function Hamburger() {
+export default function Hamburger({ onClose }) {
   return (
     <div className={styles.hamMenu}>
       <ul>
         <li>
-          <a href="#about" onClick={() => onClose()}>
+          <a href="#about" onClick={onClose}>
             About
           </a>
         </li>
         <li>
-          <a href="#skills" onClick={() => onClose()}>
+          <a href="#skills" onClick={onClose}>
             Skills
           </a>
         </li>
         <li>
-          <a href="#projects" onClick={() => onClose()}>
+          <a href="#projects" onClick={onClose}>
             Projects
           </a>
         </li>
         <li>
-          <a href="#contact" onClick={() => onClose()}>
+          <a href="#contact" onClick={onClose}>
             Contact
           </a>
         </li>
