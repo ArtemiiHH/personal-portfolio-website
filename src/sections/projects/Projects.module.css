@@ -109,6 +109,10 @@
     padding: 25px 25px;
   }
 
+  .projectsTitle {
+    padding: 0 40px;
+  }
+
   .projectCard {
     padding: 20px;
     height: 300px;
@@ -117,6 +121,10 @@
 
   .group {
     margin-top: 12px;
+  }
+
+  .outerContainer {
+    padding: 0 40px;
   }
 }
 
@@ -127,6 +135,10 @@
     padding: 20px 20px;
   }
 
+  .projectsTitle {
+    padding: 0 20px;
+  }
+
   .projectCard {
     padding: 20px;
     height: 300px;
@@ -135,5 +147,9 @@
 
   .group {
     margin-top: 10px;
+  }
+
+  .outerContainer {
+    padding: 0 20px;
   }
 }

@@ -115,6 +115,10 @@ img {
     padding: 25px 25px;
   }
 
+  .aboutTitle {
+    padding: 0 40px;
+  }
+
   .descriptionBox {
     display: flex;
     flex-direction: column;
@@ -134,6 +138,10 @@ img {
   .descriptionBox p {
     font-weight: 300;
     font-size: 17px;
+  }
+
+  .outerContainer {
+    padding: 0 40px;
   }
 }
 
@@ -165,6 +173,10 @@ img {
     padding: 20px 20px;
   }
 
+  .aboutTitle {
+    padding: 0 20px;
+  }
+
   .descriptionBox {
     display: flex;
     flex-direction: column;
@@ -184,5 +196,9 @@ img {
   .descriptionBox p {
     font-weight: 300;
     font-size: 16px;
+  }
+
+  .outerContainer {
+    padding: 0 20px;
   }
 }
