@@ -54,10 +54,18 @@ export default function Projects() {
                 </p>
                 <div className={styles.group}>
                   <div className={styles.iconGroup}>
-                    <a href="">
+                    <a
+                      href="https://artemii-barashkov.netlify.app/"
+                      target="_blank"
+                      title="Live preview"
+                    >
                       <img src={previewIcon} className={styles.icon} />
                     </a>
-                    <a href="">
+                    <a
+                      href="https://github.com/ArtemiiHH/personal-portfolio-website"
+                      target="_blank"
+                      title="GitHub Link"
+                    >
                       <img src={githubLogo} className={styles.icon} />
                     </a>
                   </div>
@@ -70,15 +78,21 @@ export default function Projects() {
               <img src={projectShop} className={styles.projectImage} />
               <div className={styles.textBox}>
                 <h3>Shopping Cart Website</h3>
-                <p className={styles.text}>
-                  Simple shopping cart website.
-                </p>
+                <p className={styles.text}>Simple shopping cart website.</p>
                 <div className={styles.group}>
                   <div className={styles.iconGroup}>
-                    <a href="">
+                    <a
+                      href="https://shopping-cart-artemii.netlify.app/"
+                      target="_blank"
+                      title="Live preview"
+                    >
                       <img src={previewIcon} className={styles.icon} />
                     </a>
-                    <a href="">
+                    <a
+                      href="https://github.com/ArtemiiHH/shopping-cart"
+                      target="_blank"
+                      title="GitHub Link"
+                    >
                       <img src={githubLogo} className={styles.icon} />
                     </a>
                   </div>
