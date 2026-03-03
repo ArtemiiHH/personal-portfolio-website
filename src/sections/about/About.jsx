@@ -1,5 +1,6 @@
 import styles from "./About.module.css";
 import profileImage from "../../assets/profile-image.jpg";
+import arrowSvg from "../../assets/arrow.svg";
 
 export default function About() {
   return (
@@ -28,8 +29,11 @@ export default function About() {
             </div>
             {/* Button Group */}
             <div className={styles.buttonGroup}>
-              <button>View work</button>
-              <button>Download CV</button>
+              <a href="#projects">
+                <button className={styles.workButton}>
+                  View work <img src={arrowSvg} className={styles.icon} />
+                </button>
+              </a>
             </div>
           </div>
           {/* Right Column */}
