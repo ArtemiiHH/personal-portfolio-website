@@ -21,15 +21,18 @@ export default function Hero() {
         <h2 className={styles.undertext}>Full Stack Developer</h2>
         {/* Button Group */}
         <div className={styles.buttonGroup}>
-          <a href="#projects">
-            <button className={styles.workButton}>
-              View work <img src={arrowSvg} className={styles.icon} />
-            </button>
+          <a href="#projects" className={`${styles.btn} ${styles.primary}`}>
+            View Work
+            <img src={arrowSvg} className={styles.icon} />
           </a>
-          <a href="../../assets/cv-artemii-barashkov.pdf" download>
-            <button className={styles.cvButton}>
-              <img src={downloadSvg} className={styles.icon} /> Download CV
-            </button>
+
+          <a
+            href="../../assets/cv-artemii-barashkov.pdf"
+            download
+            className={`${styles.btn} ${styles.secondary}`}
+          >
+            <img src={downloadSvg} className={styles.icon} />
+            Download CV
           </a>
         </div>
       </section>

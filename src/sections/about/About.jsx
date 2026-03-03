@@ -27,14 +27,6 @@ export default function About() {
                 digital experiences.
               </p>
             </div>
-            {/* Button Group */}
-            <div className={styles.buttonGroup}>
-              <a href="#projects">
-                <button className={styles.workButton}>
-                  View work <img src={arrowSvg} className={styles.icon} />
-                </button>
-              </a>
-            </div>
           </div>
           {/* Right Column */}
           <div className={styles.right}>

@@ -78,41 +78,6 @@ img {
   width: auto;
 }
 
-.buttonGroup {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-button {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 10px;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-.workButton {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background-color: white;
-}
-
-.workButton:hover .icon {
-  transform: translateX(5px);
-}
-
-.icon {
-  height: 25px;
-  transition: transform 0.2s ease;
-}
-
 .outerContainer {
   border-top: 1px solid #3b3440;
   border-bottom: 1px solid #3b3440;

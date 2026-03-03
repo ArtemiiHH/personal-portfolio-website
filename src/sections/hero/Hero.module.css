@@ -31,41 +31,55 @@
   gap: 20px;
 }
 
-button {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 10px;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-.workButton {
-  display: flex;
+/* Shared Button Style */
+.btn {
+  display: inline-flex;
   align-items: center;
   gap: 10px;
-  background-color: white;
+
+  padding: 14px 26px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
 }
 
-.workButton:hover .icon {
-  transform: translateX(5px);
+/* Primary (White) */
+.primary {
+  background: white;
+  color: black;
 }
 
-.cvButton {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background-color: black;
+.primary:hover {
+  transform: translateY(-3px);
+  background: #ddd;
+}
+
+/* Secondary (Outlined Dark) */
+.secondary {
+  border: 1px solid #444;
   color: white;
 }
 
+.secondary:hover {
+  border-color: white;
+  transform: translateY(-3px);
+}
+
+/* Icon Animation */
 .icon {
-  height: 25px;
-  transition: transform 0.2s ease;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.primary:hover .icon {
+  transform: translateX(5px);
+}
+
+.secondary:hover .icon {
+  transform: translateY(-2px);
 }
 
 .outerContainer {
