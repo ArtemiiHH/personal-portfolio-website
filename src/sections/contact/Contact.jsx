@@ -1,5 +1,6 @@
 import styles from "./Contact.module.css";
 import { FaArrowRight } from "react-icons/fa";
+import cv from "../../assets/cv-artemii-barashkov.pdf";
 
 export default function Contact() {
   return (
@@ -21,7 +22,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="/resume.pdf"
+            href={cv}
             target="_blank"
             rel="noopener noreferrer"
             className={`${styles.btn} ${styles.secondary}`}

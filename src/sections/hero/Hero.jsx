@@ -2,6 +2,7 @@ import styles from "./Hero.module.css";
 import arrowSvg from "../../assets/arrow.svg";
 import downloadSvg from "../../assets/download.svg";
 import animatedBackground from "../../assets/background-animation.gif";
+import cv from "../../assets/cv-artemii-barashkov.pdf";
 
 export default function Hero() {
   return (
@@ -26,11 +27,7 @@ export default function Hero() {
             <img src={arrowSvg} className={styles.icon} />
           </a>
 
-          <a
-            href="../../assets/cv-artemii-barashkov.pdf"
-            download
-            className={`${styles.btn} ${styles.secondary}`}
-          >
+          <a href={cv} download className={`${styles.btn} ${styles.secondary}`}>
             <img src={downloadSvg} className={styles.icon} />
             Download CV
           </a>
