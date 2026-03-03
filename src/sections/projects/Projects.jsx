@@ -1,5 +1,7 @@
 import styles from "./Projects.module.css";
 import projectImage from "../../assets/project-image.png";
+import projectPortfolio from "../../assets/project-portfolio.jpg";
+import projectShop from "../../assets/project-shop.jpg";
 import previewIcon from "../../assets/preview.svg";
 import githubLogo from "../../assets/github-logo.svg";
 
@@ -19,9 +21,7 @@ export default function Projects() {
               <div className={styles.textBox}>
                 <h3>Geography Game</h3>
                 <p className={styles.text}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  finibus, felis a elementum lacinia, tellus massa vehicula leo,
-                  id maximus urna ipsum non metus.
+                  Game developed using React and REST APIs.
                 </p>
                 <div className={styles.group}>
                   <div className={styles.iconGroup}>
@@ -46,13 +46,11 @@ export default function Projects() {
             </li>
 
             <li className={styles.projectCard}>
-              <img src={projectImage} className={styles.projectImage} />
+              <img src={projectPortfolio} className={styles.projectImage} />
               <div className={styles.textBox}>
-                <h3>Geography Game</h3>
+                <h3>Personal Portfolio</h3>
                 <p className={styles.text}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  finibus, felis a elementum lacinia, tellus massa vehicula leo,
-                  id maximus urna ipsum non metus.
+                  Personal portfolio website you are viewing now.
                 </p>
                 <div className={styles.group}>
                   <div className={styles.iconGroup}>
@@ -69,13 +67,11 @@ export default function Projects() {
             </li>
 
             <li className={styles.projectCard}>
-              <img src={projectImage} className={styles.projectImage} />
+              <img src={projectShop} className={styles.projectImage} />
               <div className={styles.textBox}>
-                <h3>Geography Game</h3>
+                <h3>Shopping Cart Website</h3>
                 <p className={styles.text}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-                  finibus, felis a elementum lacinia, tellus massa vehicula leo,
-                  id maximus urna ipsum non metus.
+                  Simple shopping cart website.
                 </p>
                 <div className={styles.group}>
                   <div className={styles.iconGroup}>
