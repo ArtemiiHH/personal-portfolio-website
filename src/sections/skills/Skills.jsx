@@ -5,7 +5,7 @@ import javascriptLogo from "../../assets/javascript-logo.svg";
 import htmlLogo from "../../assets/html-logo.svg";
 import cssLogo from "../../assets/css-logo.svg";
 import expressLogo from "../../assets/express-logo.svg";
-import sqlLogo from "../../assets/sql-logo.svg";
+import postgresLogo from "../../assets/postgres-logo.svg";
 
 export default function Skills() {
   return (
@@ -41,9 +41,9 @@ export default function Skills() {
               <img src={expressLogo} className={styles.logoIcon} />
               <p>Express</p>
             </li>
-            <li className={styles.item} title="SQL">
-              <img src={sqlLogo} className={styles.logoIcon} />
-              <p>SQL</p>
+            <li className={styles.item} title="PostgreSQL">
+              <img src={postgresLogo} className={styles.logoIcon} />
+              <p>PostgreSQL</p>
             </li>
           </ul>
         </section>

@@ -64,3 +64,16 @@
   border-color: white;
   transform: translateY(-3px);
 }
+
+/* Responsive */
+@media screen and (max-width: 1025px) {
+  .outerContainer {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .outerContainer {
+    padding: 0 20px;
+  }
+}
