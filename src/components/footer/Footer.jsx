@@ -7,7 +7,7 @@ export default function Footer() {
       <div className={styles.content}>
         <div className={styles.left}>
           <h3 className={styles.name}>Artemii Barashkov</h3>
-          <p className={styles.tagline}>Frontend Developer</p>
+          <p className={styles.tagline}>Full Stack Developer</p>
         </div>
 
         <div className={styles.socials}>
