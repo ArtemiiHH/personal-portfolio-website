@@ -15,7 +15,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   gap: 20px;
 }
 
@@ -41,9 +41,8 @@
   background-color: #000000;
 
   width: 250px;
-  height: 380px; /* <- pick a fixed card height */
-  display: flex; /* <- important */
-  flex-direction: column; /* <- important */
+  display: flex;
+  flex-direction: column;
 }
 
 .projectImage {
@@ -63,8 +62,9 @@
 .textBox {
   display: flex;
   flex-direction: column;
-  padding: 10px 0;
-  flex: 1; /* <- fill remaining space */
+  padding-top: 10px;
+  gap: 20px;
+  flex: 1;
 }
 
 .stackLabel {
@@ -114,7 +114,6 @@
 
   .projectCard {
     width: 200px;
-    height: 350px;
   }
 
   .group {
