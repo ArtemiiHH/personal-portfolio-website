@@ -17,20 +17,26 @@ export default function Hero() {
   `,
         }}
       >
-        {/* Title */}
-        <h1 className={styles.title}>Artemii Barashkov</h1>
-        <h2 className={styles.undertext}>Full Stack Developer</h2>
-        {/* Button Group */}
-        <div className={styles.buttonGroup}>
-          <a href="#projects" className={`${styles.btn} ${styles.primary}`}>
-            View Work
-            <img src={arrowSvg} className={styles.icon} />
-          </a>
+        <div className={styles.heroContainer}>
+          {/* Title */}
+          <h1 className={styles.title}>Artemii Barashkov</h1>
+          <h2 className={styles.undertext}>Full Stack Developer</h2>
+          {/* Button Group */}
+          <div className={styles.buttonGroup}>
+            <a href="#projects" className={`${styles.btn} ${styles.primary}`}>
+              View Work
+              <img src={arrowSvg} className={styles.icon} />
+            </a>
 
-          <a href={cv} download className={`${styles.btn} ${styles.secondary}`}>
-            <img src={downloadSvg} className={styles.icon} />
-            Download CV
-          </a>
+            <a
+              href={cv}
+              download
+              className={`${styles.btn} ${styles.secondary}`}
+            >
+              <img src={downloadSvg} className={styles.icon} />
+              Download CV
+            </a>
+          </div>
         </div>
       </section>
     </div>

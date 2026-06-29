@@ -16,8 +16,18 @@
   gap: 20px;
 }
 
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
 .title {
-  font-size: 4rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 4.5rem;
+  font-weight: 600; 
 }
 
 .undertext {
