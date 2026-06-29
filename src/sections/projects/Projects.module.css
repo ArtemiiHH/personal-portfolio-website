@@ -4,7 +4,6 @@
   border: 1px solid #3b3440;
   border-top: #000000;
   border-bottom: #000000;
-  padding: 70px;
   height: auto;
   background-color: #000000;
   justify-content: center;
@@ -12,11 +11,16 @@
 }
 
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  border-left: 1px solid #3b3440;
+  border-top: 1px solid #3b3440;
+  border-top: none;
+}
+
+.projects ul {
+  margin: 0;
 }
 
 .projectsTitle {
@@ -36,20 +40,19 @@
 }
 
 .projectCard {
-  border: 1px solid #3b3440;
-  padding: 20px;
+  border-right: 1px solid #3b3440;
+  border-bottom: 1px solid #3b3440;
+  padding: 24px;
   background-color: #000000;
-
-  width: 250px;
   display: flex;
   flex-direction: column;
 }
 
 .projectImage {
-  height: 200px;
   width: 100%;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
-  flex-shrink: 0; /* <- don't let the image shrink */
+  flex-shrink: 0;
 }
 
 .outerContainer {
@@ -112,8 +115,8 @@
     padding: 0 40px;
   }
 
-  .projectCard {
-    width: 200px;
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .group {
@@ -137,9 +140,8 @@
     padding: 0 20px;
   }
 
-  .projectCard {
-    width: 200px;
-    height: 350px;
+  .grid {
+    grid-template-columns: 1fr;
   }
 
   .group {
