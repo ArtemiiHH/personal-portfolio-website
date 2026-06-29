@@ -21,19 +21,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 
 .title {
   font-family: "Bricolage Grotesque", sans-serif;
   font-size: 4.5rem;
-  font-weight: 600; 
+  font-weight: 600;
+  line-height: 0.7;
 }
 
 .undertext {
   font-size: 1.2rem;
   font-weight: 200;
   letter-spacing: 0.4rem;
+  line-height: 0.7;
 }
 
 .buttonGroup {
@@ -104,7 +106,7 @@
 @media screen and (max-width: 1025px) {
   .hero {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     padding: 30px;
     width: auto;
     height: 60vh;
@@ -115,7 +117,7 @@
   }
 
   .undertext {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-weight: 200;
   }
 
@@ -141,16 +143,22 @@
 
   .title {
     font-size: 2.2rem;
+    line-height: 1;
   }
 
   .undertext {
     font-size: 1.2rem;
     font-weight: 200;
+    line-height: 1;
   }
 
   button {
     padding: 8px 15px;
     font-size: 0.9rem;
+  }
+
+  .buttonGroup {
+    gap: 10px;
   }
 
   .outerContainer {
