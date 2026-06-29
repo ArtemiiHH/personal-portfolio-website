@@ -1,7 +1,7 @@
 import styles from "./Projects.module.css";
 import projectImage from "../../assets/project-image.png";
 import projectPortfolio from "../../assets/project-portfolio.jpg";
-import projectConsulting from "../../assets/project-consulting.png";
+import projectConsulting from "../../assets/consulting-leads-mockup2.png";
 import previewIcon from "../../assets/preview.svg";
 import githubLogo from "../../assets/github-logo.svg";
 
@@ -19,7 +19,7 @@ export default function Projects() {
             <li className={styles.projectCard}>
               <img src={projectConsulting} className={styles.projectImage} />
               <div className={styles.textBox}>
-                <h3>Consulting Platform</h3>
+                <h3>A B2B tool that helps consulting firms find leads</h3>
                 <p className={styles.text}>
                   Built a platform that helps consulting firms find leads.
                 </p>
