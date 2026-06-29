@@ -53,6 +53,11 @@
   height: 300px;
   object-fit: cover;
   flex-shrink: 0;
+  transition: filter 0.2s ease;
+}
+
+.projectImage:hover {
+  filter: brightness(0.7);
 }
 
 .outerContainer {
@@ -68,6 +73,12 @@
   padding-top: 24px;
   gap: 20px;
   flex: 1;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
 }
 
 .stackLabel {
