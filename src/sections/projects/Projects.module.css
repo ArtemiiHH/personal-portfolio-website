@@ -85,8 +85,9 @@
   display: flex;
   width: fit-content;
   padding: 5px 10px;
-  background-color: #3b3440;
+  background-color: none;
   border-radius: 10px;
+  border: 1px solid #3b3440;
   font-size: 0.9rem;
 }
 
@@ -94,7 +95,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: auto; /* <- pushes it to the bottom */
+  margin-top: auto;
 }
 
 .iconGroup {
