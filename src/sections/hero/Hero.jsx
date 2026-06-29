@@ -20,7 +20,9 @@ export default function Hero() {
         <div className={styles.heroContainer}>
           {/* Title */}
           <h1 className={styles.title}>Artemii Barashkov</h1>
-          <h2 className={styles.undertext}>Full Stack Developer</h2>
+          <h2 className={styles.undertext}>
+            <i>FULL STACK DEVELOPER</i>
+          </h2>
           {/* Button Group */}
           <div className={styles.buttonGroup}>
             <a href="#projects" className={`${styles.btn} ${styles.primary}`}>
