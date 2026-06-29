@@ -18,6 +18,62 @@ export default function Projects() {
           <ul className={styles.grid}>
             {/* Each Project Card */}
             <li className={styles.projectCard}>
+              <img src={projectConsulting} className={styles.projectImage} />
+              <div className={styles.textBox}>
+                <h3>Consulting Platform</h3>
+                <p className={styles.text}>
+                  Built a platform that helps consulting firms find leads.
+                </p>
+                <div className={styles.group}>
+                  <div className={styles.iconGroup}>
+                    <a
+                      href="https://getconsultingleads.com/"
+                      target="_blank"
+                      title="Live preview"
+                    >
+                      <img src={previewIcon} className={styles.icon} />
+                    </a>
+                    <a
+                      href="https://github.com/ArtemiiHH/consulting-leads"
+                      target="_blank"
+                      title="GitHub Link"
+                    >
+                      <img src={githubLogo} className={styles.icon} />
+                    </a>
+                  </div>
+                  <p className={styles.stackLabel}>React</p>
+                </div>
+              </div>
+            </li>
+
+            <li className={styles.projectCard}>
+              <img src={projectShop} className={styles.projectImage} />
+              <div className={styles.textBox}>
+                <h3>Shopping Cart Website</h3>
+                <p className={styles.text}>Simple shopping cart website.</p>
+                <div className={styles.group}>
+                  <div className={styles.iconGroup}>
+                    <a
+                      href="https://shopping-cart-artemii.netlify.app/"
+                      target="_blank"
+                      title="Live preview"
+                    >
+                      <img src={previewIcon} className={styles.icon} />
+                    </a>
+                    <a
+                      href="https://github.com/ArtemiiHH/shopping-cart"
+                      target="_blank"
+                      title="GitHub Link"
+                    >
+                      <img src={githubLogo} className={styles.icon} />
+                    </a>
+                  </div>
+                  <p className={styles.stackLabel}>React</p>
+                </div>
+              </div>
+            </li>
+
+            <li className={styles.projectCard}>
               <img src={projectImage} className={styles.projectImage} />
               <div className={styles.textBox}>
                 <h3>Geography Game</h3>
@@ -64,62 +120,6 @@ export default function Projects() {
                     </a>
                     <a
                       href="https://github.com/ArtemiiHH/personal-portfolio-website"
-                      target="_blank"
-                      title="GitHub Link"
-                    >
-                      <img src={githubLogo} className={styles.icon} />
-                    </a>
-                  </div>
-                  <p className={styles.stackLabel}>React</p>
-                </div>
-              </div>
-            </li>
-
-            <li className={styles.projectCard}>
-              <img src={projectShop} className={styles.projectImage} />
-              <div className={styles.textBox}>
-                <h3>Shopping Cart Website</h3>
-                <p className={styles.text}>Simple shopping cart website.</p>
-                <div className={styles.group}>
-                  <div className={styles.iconGroup}>
-                    <a
-                      href="https://shopping-cart-artemii.netlify.app/"
-                      target="_blank"
-                      title="Live preview"
-                    >
-                      <img src={previewIcon} className={styles.icon} />
-                    </a>
-                    <a
-                      href="https://github.com/ArtemiiHH/shopping-cart"
-                      target="_blank"
-                      title="GitHub Link"
-                    >
-                      <img src={githubLogo} className={styles.icon} />
-                    </a>
-                  </div>
-                  <p className={styles.stackLabel}>React</p>
-                </div>
-              </div>
-            </li>
-
-            <li className={styles.projectCard}>
-              <img src={projectConsulting} className={styles.projectImage} />
-              <div className={styles.textBox}>
-                <h3>Consulting Platform</h3>
-                <p className={styles.text}>
-                  Built a platform that helps consulting firms find leads.
-                </p>
-                <div className={styles.group}>
-                  <div className={styles.iconGroup}>
-                    <a
-                      href="https://getconsultingleads.com/"
-                      target="_blank"
-                      title="Live preview"
-                    >
-                      <img src={previewIcon} className={styles.icon} />
-                    </a>
-                    <a
-                      href="https://github.com/ArtemiiHH/consulting-leads"
                       target="_blank"
                       title="GitHub Link"
                     >
