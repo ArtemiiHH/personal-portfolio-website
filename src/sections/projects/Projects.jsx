@@ -1,5 +1,5 @@
 import styles from "./Projects.module.css";
-import projectImage from "../../assets/project-image.png";
+import geoGame from "../../assets/geography-game.png";
 import casePilot from "../../assets/case-pilot-mockup8.png";
 import consultingLeads from "../../assets/consulting-leads-mockup2.png";
 import previewIcon from "../../assets/preview.svg";
@@ -96,7 +96,7 @@ export default function Projects() {
                 href="https://geography-memo-game.netlify.app/"
                 target="_blank"
               >
-                <img src={projectImage} className={styles.projectImage} />
+                <img src={geoGame} className={styles.projectImage} />
               </a>
               <div className={styles.textBox}>
                 <h3>Geography Game</h3>
