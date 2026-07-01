@@ -22,9 +22,10 @@ export default function Projects() {
                 <img src={casePilot} className={styles.projectImage} />
               </a>
               <div className={styles.textBox}>
-                <h3>Email Automation software for law firms</h3>
+                <h3>Email automation software for law firms</h3>
                 <p className={styles.text}>
-                  Personal portfolio website you are viewing now.
+                  SaaS platform that eliminates manual client status calls by
+                  automating case update notifications with one click.
                 </p>
                 <div className={styles.group}>
                   <div className={styles.iconGroup}>
@@ -58,9 +59,11 @@ export default function Projects() {
                 <img src={consultingLeads} className={styles.projectImage} />
               </a>
               <div className={styles.textBox}>
-                <h3>A B2B tool that helps consulting firms find leads</h3>
+                <h3>B2B tool that helps consulting firms find leads</h3>
                 <p className={styles.text}>
-                  Built a platform that helps consulting firms find leads.
+                  SaaS platform that eliminates manual lead searching for
+                  consulting agencies by delivering verified, niche-specific
+                  leads to their inbox.
                 </p>
                 <div className={styles.group}>
                   <div className={styles.iconGroup}>
@@ -79,7 +82,11 @@ export default function Projects() {
                       <img src={githubLogo} className={styles.icon} />
                     </a>
                   </div>
-                  <p className={styles.stackLabel}>React</p>
+                  <div className={styles.tags}>
+                    <p className={styles.stackLabel}>React</p>
+                    <p className={styles.stackLabel}>Node</p>
+                    <p className={styles.stackLabel}>Express</p>
+                  </div>
                 </div>
               </div>
             </li>
@@ -89,7 +96,8 @@ export default function Projects() {
               <div className={styles.textBox}>
                 <h3>Geography Game</h3>
                 <p className={styles.text}>
-                  Game developed using React and REST APIs.
+                  A memory card game where players match country flags and
+                  capitals, powered by the REST Countries API.
                 </p>
                 <div className={styles.group}>
                   <div className={styles.iconGroup}>
