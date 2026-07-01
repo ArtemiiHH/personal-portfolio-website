@@ -19,11 +19,6 @@ export default function Hamburger({ onClose }) {
             Projects
           </a>
         </li>
-        <li>
-          <a href="#contact" onClick={onClose}>
-            Contact
-          </a>
-        </li>
       </ul>
     </div>
   );

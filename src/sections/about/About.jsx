@@ -1,6 +1,5 @@
 import styles from "./About.module.css";
 import profileImage from "../../assets/profile-image.jpg";
-import arrowSvg from "../../assets/arrow.svg";
 
 export default function About() {
   return (
