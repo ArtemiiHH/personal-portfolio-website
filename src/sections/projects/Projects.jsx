@@ -30,7 +30,7 @@ export default function Projects() {
                 <div className={styles.group}>
                   <div className={styles.iconGroup}>
                     <a
-                      href="https://artemii-barashkov.netlify.app/"
+                      href="https://getcasepilot.co/"
                       target="_blank"
                       title="Live preview"
                     >
@@ -39,7 +39,7 @@ export default function Projects() {
                     <a
                       href="https://github.com/ArtemiiHH/personal-portfolio-website"
                       target="_blank"
-                      title="GitHub Link"
+                      title="View it on GitHub"
                     >
                       <img src={githubLogo} className={styles.icon} />
                     </a>
@@ -77,7 +77,7 @@ export default function Projects() {
                     <a
                       href="https://github.com/ArtemiiHH/consulting-leads"
                       target="_blank"
-                      title="GitHub Link"
+                      title="View it on GitHub"
                     >
                       <img src={githubLogo} className={styles.icon} />
                     </a>
@@ -92,7 +92,12 @@ export default function Projects() {
             </li>
 
             <li className={styles.projectCard}>
-              <img src={projectImage} className={styles.projectImage} />
+              <a
+                href="https://geography-memo-game.netlify.app/"
+                target="_blank"
+              >
+                <img src={projectImage} className={styles.projectImage} />
+              </a>
               <div className={styles.textBox}>
                 <h3>Geography Game</h3>
                 <p className={styles.text}>
@@ -111,7 +116,7 @@ export default function Projects() {
                     <a
                       href="https://github.com/ArtemiiHH/memory-card-game"
                       target="_blank"
-                      title="GitHub Link"
+                      title="View it on GitHub"
                     >
                       <img src={githubLogo} className={styles.icon} />
                     </a>
